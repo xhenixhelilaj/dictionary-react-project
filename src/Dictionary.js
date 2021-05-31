@@ -2,7 +2,7 @@ import React,{useState} from "react"
 
 export default function Dictionary(){
     let [keyword, setKeyword] = useState("")
-    function handleResponse(event){
+    function search(event){
         event.preventDefault()
         alert(`Searching for ${keyword}`)
     }
@@ -11,7 +11,7 @@ export default function Dictionary(){
     }
     return(
         <div>
-            <form onSubmit={handleResponse}>
+            <form onSubmit={search}>
                 <input type="search" placeholder="enter a term" onChange={handleChange} />
                 <input type="submit" value="🔍" />
             </form>
