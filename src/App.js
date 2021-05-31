@@ -8,6 +8,7 @@ function App() {
        <h1>DICTIONARY</h1>
        <Dictionary />
      </div>
+     <footer><a href="https://github.com/xhenixhelilaj/dictionary-react-project">Open-sourced</a> on Github</footer>
     </div>
   );
 }
