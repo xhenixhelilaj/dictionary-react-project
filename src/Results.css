@@ -1,3 +1,5 @@
-.Results{
+.Results .main{
     border: 3px solid forestgreen;
+    font-family: 'Cabin', sans-serif;
+
 }
