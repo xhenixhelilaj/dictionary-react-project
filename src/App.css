@@ -1,10 +1,10 @@
 .App {
-  text-align: center;
+  text-align: left;
   margin: 50px;
   color: black;
   border: 3px solid red ;
   background-color: rgba(255, 255, 255 , 0.810) ;
-
+  
 }
 
 
