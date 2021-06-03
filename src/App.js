@@ -8,7 +8,7 @@ function App() {
        <h1>DICTIONARY</h1>
        <Dictionary />
      </div>
-     <footer><a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer">Open-sourced</a> on Github</footer>
+     <footer><a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">Open-sourced</a> on Github</footer>
     </div>
   );
 }
