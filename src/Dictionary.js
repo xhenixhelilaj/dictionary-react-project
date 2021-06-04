@@ -6,6 +6,7 @@ import "./Dictionary.css";
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
+
   function search(event) {
     event.preventDefault();
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
@@ -17,9 +18,8 @@ export default function Dictionary() {
   function handleResponse(response) {
     setResults(response.data[0]);
   }
-  return (
-    <div>
-      <form onSubmit={search}>
+
+  let form = <form onSubmit={search}>
         <div className="row">
           <div className="col-9"><input
           type="search"
@@ -31,9 +31,15 @@ export default function Dictionary() {
             <input type="submit" value="🔍" className="btn btn-light" />
           </div>
         </div>
-        
       </form>
+
+
+     return (
+    <div className="name">
+      {form}  
       <Results results={results} />
     </div>
   );
+  
+  
 }
