@@ -1,6 +1,12 @@
 .Results .main{
-    border: 3px solid forestgreen;
+    box-shadow: 1px 5px 15px rgb(0 0 0 / 100%);
+    background-color: rgb(212, 185, 168, 0.9555);
+    border-radius: 8px;
     font-family: 'Cabin', sans-serif;
+    padding: 13px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
