@@ -20,16 +20,10 @@ export default function Dictionary() {
     setLoaded(true)
   }
 
-let form =
-          <form className="form" onSubmit={search}>
-            <div className="row">
-                <div className="col-9">
-                  <input type="search" placeholder="enter a term" onChange={handleChange} className="form-control"/></div>
-                <div className="col-3">
-                      <input type="submit" value="🔍" className="btn btn-light" />
-                </div>
-</div>
-</form>
+let form = <form className="form" onSubmit={search}>
+              <input type="search" placeholder="enter a term" onChange={handleChange} className="form-control"/>
+          </form>
+
 if(loaded){
   return (
     <div>
@@ -41,11 +35,14 @@ if(loaded){
   );
 }else{
   return(
-    <div className="center">
-      <h1>what are you looking for?</h1> 
-    {form}
-    <footer><a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">Open-sourced</a> on Github</footer>
-</div>
+    <div>
+      <div className="center">
+        <h1>what are you looking for?</h1>
+       {form}
+       <footer><a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">Open-sourced</a> on Github</footer>
+ </div>
+      
+    </div>
   )
 }
   
