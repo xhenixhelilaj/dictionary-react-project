@@ -21,17 +21,13 @@ export default function Dictionary() {
   }
 
 let form =
-  <form onSubmit={search}>
-<div className="row">
-  <div className="col-7"><input
-  type="search"
-  placeholder="enter a term"
-  onChange={handleChange}
-  className="form-control"
-/></div>
-  <div className="col-2">
-    <input type="submit" value="🔍" className="btn btn-light" />
-  </div>
+          <form className="form" onSubmit={search}>
+            <div className="row">
+                <div className="col-9">
+                  <input type="search" placeholder="enter a term" onChange={handleChange} className="form-control"/></div>
+                <div className="col-3">
+                      <input type="submit" value="🔍" className="btn btn-light" />
+                </div>
 </div>
 </form>
 if(loaded){
