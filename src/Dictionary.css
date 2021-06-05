@@ -1,1 +1,30 @@
+.center{
+    max-width: 650px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid brown;
+    border-radius: 10px;
+    position: relative;
+    top: 210px;
+    text-align: center;
+    padding-top: 18px; 
+    padding-bottom: 18px; 
+    background-color: rgb(212, 185, 168, 0.7555);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+
+}
+
+.center h1{
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.center .form{
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
 

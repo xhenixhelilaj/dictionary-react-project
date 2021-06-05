@@ -21,13 +21,17 @@ export default function Dictionary() {
   }
 
 let form = <form className="form" onSubmit={search}>
-              <input type="search" placeholder="enter a term" onChange={handleChange} className="form-control"/>
+  <div className="row"><div className="col-9"> <input type="search" placeholder="enter a term" onChange={handleChange} className="form-control"/></div>
+  <div className="col-3">
+                      <input type="submit" value="Search" className="btn btn-outline-dark w-100"/>
+                    </div> </div>
+             
           </form>
 
 if(loaded){
   return (
     <div>
-      <h1>what are you looking for?</h1> 
+      <h1>What are you looking for?</h1> 
       {form}
        <Results results={results} />
       <footer><a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">Open-sourced</a> on Github</footer>
