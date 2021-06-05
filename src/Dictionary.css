@@ -50,6 +50,7 @@
 }
 
 .response .results{
+    text-align: left;
     padding-left:70px;
     padding-right:70px;
     padding-top: 20px;
