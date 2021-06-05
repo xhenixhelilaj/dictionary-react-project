@@ -12,6 +12,8 @@
     background-color: rgb(212, 185, 168, 0.7555);
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
+    box-shadow:3px 3px 10px rgb(86 43 12 / 100%);
+
 
 }
 
@@ -28,3 +30,28 @@
     
 }
 
+.response{
+    border: 6px solid black;
+    margin: 30px;
+    text-align: center;
+    padding: 20px;    
+}
+
+.response .form{
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.response h1{
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.response .results{
+    padding-left:70px;
+    padding-right:70px;
+    padding-top: 20px;
+}

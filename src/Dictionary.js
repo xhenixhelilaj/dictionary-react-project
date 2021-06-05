@@ -30,10 +30,11 @@ let form = <form className="form" onSubmit={search}>
 
 if(loaded){
   return (
-    <div>
+    <div className="response">
       <h1>What are you looking for?</h1> 
       {form}
-       <Results results={results} />
+      <div className="results"><Results results={results} /></div>
+       
       <footer><a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">Open-sourced</a> on Github</footer>
     </div>
   );
