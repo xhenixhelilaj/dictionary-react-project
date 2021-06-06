@@ -3,13 +3,13 @@
     display: block;
     margin: 0 auto;
     border: 1px solid brown;
+    background-color: rgb(212, 185, 168, 0.7555);
     border-radius: 10px;
     position: relative;
     top: 210px;
     text-align: center;
     padding-top: 18px; 
     padding-bottom: 18px; 
-    background-color: rgb(212, 185, 168, 0.7555);
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     box-shadow:3px 3px 10px rgb(86 43 12 / 100%);
@@ -58,7 +58,20 @@
 .response footer{
     margin: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 18px;}
+    font-size: 18px;
+    font-weight: 60;
+    border: 1px solid brown;
+    background-color: rgb(212, 185, 168, 0.9555);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 6px;
+}
+
+.response footer a{
+    text-decoration: none;
+    color: rgb(100, 7, 7);
+    font-weight: 600;
+}
     
 .response .form{
     display: block;
