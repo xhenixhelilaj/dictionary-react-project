@@ -7,9 +7,11 @@ export default function Photos(props){
         <div className="Photos">
             <div className="row">
             {props.photos.map(function(photo, index){
-                <div className="col-3">
-                return <img src={photo.src.landscape} key={index} />
-                </div>
+                return (
+                    <div className="col-3" key={index} >
+                      <img src={photo.src.landscape}/>
+                   </div>
+                )
             })}
           </div>  
         </div>
