@@ -1,6 +1,7 @@
 .Photos img {
     border-radius: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 13px;
+    margin-top: 10px;
 
 }
 
@@ -9,4 +10,7 @@
     box-shadow:3px 3px 10px rgb(86 43 12 / 100%);
     background-color: rgb(212, 185, 168, 0.9555);
     padding: 20px;
+    max-width: 790px;
+    margin: 0 auto;
+    display: block;
 }
