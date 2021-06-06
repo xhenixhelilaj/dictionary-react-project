@@ -1,4 +1,5 @@
 import React from "react"
+import "./Photos.css"
 
 export default function Photos(props){
     console.log(props.photos);
@@ -8,8 +9,10 @@ export default function Photos(props){
             <div className="row">
             {props.photos.map(function(photo, index){
                 return (
-                    <div className="col-3" key={index} >
-                      <img src={photo.src.landscape} className="img-fluid"/>
+                    <div className="col-3" key={index}>
+                        <a href={photo.src.original} target="_blank" >
+                            <img src={photo.src.landscape} className="img-fluid"/>
+                        </a>
                    </div>
                 )
             })}
