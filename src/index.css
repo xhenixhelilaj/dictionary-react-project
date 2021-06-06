@@ -1,7 +1,7 @@
 body{
     margin: 8px;
     background-image: url("coffee-table.jpg");
-    background-position: center;
+    background-position: fixed;
     background-size: cover;
 
 }

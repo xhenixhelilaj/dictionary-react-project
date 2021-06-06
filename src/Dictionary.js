@@ -49,16 +49,18 @@ if(loaded){
         <Results results={results}/>
         <Photos photos={photos} />
         </div>
-        <footer>This project was coded by Xheni Xhelilaj and is<a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">open-sourced</a> on Github</footer>
+        <footer>This project was coded by Xheni Xhelilaj and is <a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">open-sourced</a> on Github</footer>
     </div>
   );
 }else{
   return(
     <div>
       <div className="center">
-        <h1>what are you looking for?</h1>
-       {form}
-       <footer>This project was coded by Xheni Xhelilaj and is<a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">open-sourced</a> on Github</footer>
+        <div className="first">
+          <h1>what are you looking for?</h1>
+         {form}
+       </div>
+       <footer>This project was coded by Xheni Xhelilaj and is <a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">open-sourced</a> on Github</footer>
  </div>
       
     </div>

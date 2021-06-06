@@ -1,4 +1,4 @@
-.center{
+.center .first{
     max-width: 650px;
     display: block;
     margin: 0 auto;
@@ -13,6 +13,21 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     box-shadow:3px 3px 10px rgb(86 43 12 / 100%);
+
+
+}
+
+.center footer {
+    max-width: 650px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 210px;
+    text-align: center;
+    padding-top: 18px; 
+    padding-bottom: 18px; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
 
 
 }
@@ -42,7 +57,9 @@
 
 .response footer{
     margin: 20px;
-}
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;}
+    
 .response .form{
     display: block;
     padding-left: 50px;
