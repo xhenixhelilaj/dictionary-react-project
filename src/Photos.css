@@ -1,3 +1,13 @@
 .Photos img {
     border-radius: 4px;
+    margin: 8px;
+
+}
+
+.Photos{
+    border-radius: 8px;
+    box-shadow:3px 3px 10px rgb(86 43 12 / 100%);
+    background-color: rgb(212, 185, 168, 0.9555);
+    padding: 20px;
+    padding-right: 35px;
 }
