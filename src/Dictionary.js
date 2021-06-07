@@ -3,7 +3,7 @@ import Results from "./Results";
 import Photos from "./Photos"
 import "./Dictionary.css"
 import axios from "axios";
-import logo from "./logo.jpg"
+import logo from "./logo.png"
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
@@ -43,8 +43,10 @@ let form = <form className="form" onSubmit={search}>
 
 if(loaded){
   return (
+    
     <div className="response">
-      <img src={logo} alt="Logo" />;
+      
+      <img src={logo} alt="Logo" />
       <h1>What are you looking for?</h1> 
       {form}
       <div className="results">
@@ -57,6 +59,7 @@ if(loaded){
 }else{
   return(
     <div>
+      <img src={logo} alt="Logo" />;
       <div className="center">
         <div className="first">
           <h1><strong>What are you looking for?</strong></h1>
