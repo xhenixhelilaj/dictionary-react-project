@@ -48,10 +48,13 @@
 }
 
 .logo{
-    width: 30%;
+    width: 250px;
     display: block;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
+
+
 .response{
     text-align: center; 
     max-width: 950px;  
