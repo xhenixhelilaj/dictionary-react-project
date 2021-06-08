@@ -43,11 +43,12 @@ let form = <form className="form" onSubmit={search}>
 
 if(loaded){
   return (
-    
-    <div className="response">
-      <a href="center">     
+    <div>
+    <a href="center">     
        <img src={logo} alt="Logo" className="logo-2"/>
        </a>
+    <div className="response">
+      
       <h1>What are you looking for?</h1> 
       {form}
       <div className="results">
@@ -55,6 +56,7 @@ if(loaded){
         <Photos photos={photos} />
         </div>
         <footer>This project was coded by Xheni Xhelilaj and is <a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">open-sourced</a> on Github</footer>
+    </div>
     </div>
   );
 }else{
