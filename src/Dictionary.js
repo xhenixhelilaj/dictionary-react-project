@@ -62,7 +62,7 @@ if(loaded){
       <img src={logo} alt="Logo" className="logo"/>;
       <div className="center">
         <div className="first">
-          <h1><strong>What are you looking for?</strong></h1>
+          <h1>What are you looking for?</h1>
          {form}
        </div>
        <footer>This project was coded by Xheni Xhelilaj and is <a href="https://github.com/xhenixhelilaj/dictionary-react-project" rel="noreferrer" target="_blank">open-sourced</a> on Github</footer>
