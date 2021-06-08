@@ -1,5 +1,5 @@
 .center .first{
-    max-width: 650px;
+    max-width: 850px;
     display: block;
     margin: 0 auto;
     border: 1px solid brown;
@@ -11,8 +11,6 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     box-shadow:3px 3px 10px rgb(86 43 12 / 100%);
-
-
 }
 
 .center footer {
@@ -46,13 +44,20 @@
     font-size: 2px;   
 }
 
-.logo{
-    width: 250px;
+.logo-2{
+    width: 260px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+.logo-1{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
 
 .response{
     text-align: center; 

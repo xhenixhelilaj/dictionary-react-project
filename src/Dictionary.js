@@ -45,8 +45,9 @@ if(loaded){
   return (
     
     <div className="response">
-      <a href="center">      <img src={logo} alt="Logo" className="logo"/>
-</a>
+      <a href="center">     
+       <img src={logo} alt="Logo" className="logo-2"/>
+       </a>
       <h1>What are you looking for?</h1> 
       {form}
       <div className="results">
@@ -59,7 +60,9 @@ if(loaded){
 }else{
   return(
     <div>
-      <img src={logo} alt="Logo" className="logo"/>;
+      <a href="center">
+              <img src={logo} alt="Logo" className="logo-1"/>
+              </a>
       <div className="center">
         <div className="first">
           <h1>What are you looking for?</h1>
