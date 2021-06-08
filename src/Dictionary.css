@@ -1,4 +1,4 @@
-.center .first{
+#center .first{
     max-width: 850px;
     display: block;
     margin: 0 auto;
@@ -13,7 +13,7 @@
     box-shadow:3px 3px 10px rgb(86 43 12 / 100%);
 }
 
-.center footer {
+#center footer {
     max-width: 650px;
     display: block;
     margin: 0 auto;
@@ -23,19 +23,19 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
 }
-.center footer a {
+#center footer a {
     text-decoration: none;
     color: rgb(100, 7, 7);
     font-weight: 600;
 }
-.center h1{
+#center h1{
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     color: rgb(58, 36, 21);
     margin-bottom: 12px;
 }
 
-.center .form{
+#center .form{
     display: block;
     padding-left: 50px;
     padding-right: 50px;

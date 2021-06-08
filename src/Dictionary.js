@@ -44,7 +44,7 @@ let form = <form className="form" onSubmit={search}>
 if(loaded){
   return (
     <div>
-    <a href=".center" rel="noreferrer">     
+    <a href="#center" rel="noreferrer">     
        <img src={logo} alt="Logo" className="logo-2"/>
        </a>
     <div className="response">
@@ -62,10 +62,10 @@ if(loaded){
 }else{
   return(
     <div>
-      <a href=".center" rel="noreferrer">
+      <a href="#center" rel="noreferrer">
               <img src={logo} alt="Logo" className="logo-1"/>
               </a>
-      <div className="center">
+      <div id="center">
         <div className="first">
           <h1>What are you looking for?</h1>
          {form}
