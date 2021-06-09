@@ -62,7 +62,7 @@ if(loaded){
 }else{
   return(
     <div>
-      <a href="#center" rel="noreferrer">
+      <a href="#center">
               <img src={logo} alt="Logo" className="logo-1"/>
               </a>
       <div id="center">
