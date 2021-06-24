@@ -2,6 +2,6 @@ body{
     margin: 8px;
     background-image: url("coffee-table.jpg");
     background-position: fixed;
-    background-size: cover;
+    background-size: auto;
 
 }
