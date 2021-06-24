@@ -44,9 +44,7 @@ let form = <form className="form" onSubmit={search}>
 if(loaded){
   return (
     <div>
-    <a href="dictionary.js#center" rel="noreferrer">     
        <img src={logo} alt="Logo" className="logo-2"/>
-       </a>
     <div className="response">
       
       <h1>What are you looking for?</h1> 
@@ -62,9 +60,8 @@ if(loaded){
 }else{
   return(
     <div>
-      <a href="dictionary.js#center">
               <img src={logo} alt="Logo" className="logo-1"/>
-              </a>
+
       <div id="center">
         <div className="first">
           <h1>What are you looking for?</h1>
